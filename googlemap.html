@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_65ac17cd50c041aba4ac526853f02c63 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_65ac17cd50c041aba4ac526853f02c63" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_65ac17cd50c041aba4ac526853f02c63 = L.map(
+        'map_65ac17cd50c041aba4ac526853f02c63', {
+        center: [28.5011226, 77.4099794],
+        zoom: 8,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_bfa1a0311e64483da65836953bb31758 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_65ac17cd50c041aba4ac526853f02c63);
+    
+        var marker_a7021fcb35234f96b82829436e315379 = L.marker(
+            [10.880137, 77.02242],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_65ac17cd50c041aba4ac526853f02c63);
+        
+    
+            var popup_317f91d52b03461d83f34f66f8ced789 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3905f0d36804469c905b9f6fa6b44e0c = $(`<div id="html_3905f0d36804469c905b9f6fa6b44e0c" style="width: 100.0%; height: 100.0%;">karpagam engineering college</div>`)[0];
+                popup_317f91d52b03461d83f34f66f8ced789.setContent(html_3905f0d36804469c905b9f6fa6b44e0c);
+            
+
+            marker_a7021fcb35234f96b82829436e315379.bindPopup(popup_317f91d52b03461d83f34f66f8ced789)
+            ;
+
+            
+        
+    
+        var marker_a475bb8eef124f1aacf02066f7b85fbb = L.marker(
+            [28.359203, 75.588095],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_65ac17cd50c041aba4ac526853f02c63);
+        
+    
+            var popup_6e7180b845884b26b432930b53125e4f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7f92eaf156574c42b70b5e719fd37e59 = $(`<div id="html_7f92eaf156574c42b70b5e719fd37e59" style="width: 100.0%; height: 100.0%;">birla institute of technogoly</div>`)[0];
+                popup_6e7180b845884b26b432930b53125e4f.setContent(html_7f92eaf156574c42b70b5e719fd37e59);
+            
+
+            marker_a475bb8eef124f1aacf02066f7b85fbb.bindPopup(popup_6e7180b845884b26b432930b53125e4f)
+            ;
+
+            
+        
+    
+                var poly_line_abbfe7c30c674292bf036e50a97bb718 = L.polyline(
+                    [[10.880137, 77.02242], [28.359203, 75.588095]],
+                    {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "black",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "noClip": false,
+  "opacity": 1.0,
+  "smoothFactor": 1.0,
+  "stroke": true,
+  "weight": 5
+}
+                    )
+                    .addTo(map_65ac17cd50c041aba4ac526853f02c63);
+            
+</script>
